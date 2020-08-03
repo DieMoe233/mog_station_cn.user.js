@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         莫古station汉化
 // @namespace    http://touhou.diemoe.net/
-// @version      0.1
+// @version      0.2
 // @description  莫古station界面的简单中文化
 // @author       呆萌
 // @match        *://secure.square-enix.com/account/app/svc/*
@@ -28,6 +28,9 @@
     href2cn("/account/app/svc/accsettle","自动续费管理");
     href2cn("/account/app/svc/otpTop","一次性密码");
 
+    menu2cn("to_option_service","可选服务")
+    menu2cn("to_option_item","道具商城")
+    menu2cn("menu_account_button","账户管理")
     text2cn("さん モグステーションへようこそ！","欢迎来到莫古Station！")
     text2cn("お客様の契約状況","用户合同情况")
     text2cn("利用期間の追加、支払い方法の変更","增加月卡时间、修改支付方法")
@@ -50,6 +53,28 @@
     text2cn("ホームワールド変更サービス","角色数据转移服务")
     text2cn("キャラクター名変更サービス","角色名称修改服务")
     text2cn("ベテランリワード","陆行鸟礼物站(x)")
+
+    text2cn("このアカウントは招待コード入力が完了しています","此帐号已输入被招待码")
+    text2cn("このサービスアカウントの友達招待から","此帐号已招待好友")
+    text2cn("人が新しくプレイを開始しました。","人。")
+    text2cn("新生エオルゼア","重生之境")
+    text2cn("蒼天のイシュガルド","苍穹之禁城")
+    text2cn("紅蓮のリベレーター","红莲之狂潮")
+    text2cn("漆黒のヴィランズ","暗影之逆焰")
+    text2cn("サービスコース","服务套餐")
+    text2cn("累積利用日数","累计使用天数")
+    text2cn("お支払い方法","支付方式")
+    text2cn("自動支払いがありません","未自动续约")
+    text2cn("自動お支払い手続きは","自动续约手续请点")
+    text2cn("追加有料オプション","追加收费选项")
+    text2cn("契約なし","无")
+    text2cn("キャラクター名","角色名称")
+    text2cn("ホームワールド名","服务器名称")
+    text2cn("リワードランク","WordRank")
+    text2cn("まで獲得済","已获得")
+    text2cn("ベテランリワード一覧は","奖励列表请点")
+    text2cn("コレクターズ","典藏包")
+    text2cn("エディション","")
 
     text2cn("ファイナルファンタジーXIV","最终幻想XIV");
 
