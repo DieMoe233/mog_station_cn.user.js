@@ -15,6 +15,7 @@
     menu2cn("menu_shop_button","道具商城")
     menu2cn("menu_history_button","氪金记录")
     menu2cn("menu_support_button","用户支持")
+    menu2cn("logout_button","注销登录")
     id2cn("to_service_contract_button2","'最终幻想XIV'的服务合同程序，续约、注销、购入。");
     id2cn("service_contract_button","'使用信用卡或水晶点购入月卡。");
     id2cn("charge_button","使用卡密兑换。");
