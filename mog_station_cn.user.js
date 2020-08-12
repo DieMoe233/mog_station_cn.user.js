@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         莫古station汉化
 // @namespace    http://touhou.diemoe.net/
-// @version      0.4
+// @version      0.5
 // @description  莫古station界面的简单中文化
 // @author       呆萌
 // @match        *://secure.square-enix.com/*
@@ -21,7 +21,7 @@
     id2cn("to_service_contract_button2","'最终幻想XIV'的服务合同程序，续约、注销、购入。");
     id2cn("service_contract_button","'使用信用卡或水晶点购入月卡。");
     id2cn("retainer_contract_button","追加购买雇员")
-    ud2cn("caoption_contract_button","助手APP增值服务")
+    id2cn("caoption_contract_button","助手APP增值服务")
     id2cn("charge_button","使用卡密兑换。");
     id2cn("code_input_button","兑换代码")
 
