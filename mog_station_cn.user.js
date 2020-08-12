@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         莫古station汉化
 // @namespace    http://touhou.diemoe.net/
-// @version      0.3
+// @version      0.4
 // @description  莫古station界面的简单中文化
 // @author       呆萌
 // @match        *://secure.square-enix.com/*
@@ -10,6 +10,8 @@
 
 (function() {
     'use strict';
+    text2cn("ファイナルファンタジーXIVをプレイするには、お持ちのパッケージに付属しているレジストレーションコードを下記「新規サービスアカウント追加」ボタンをクリックし画面の指示に従って入力してください。"," 要玩最终幻想 XIV，请点击下面的'添加新的服务账号'，然后按照屏幕上的说明输入包装附带的注册代码。")
+    text2cn("ベテランリワード以外の獲得済アイテム","获得了累计月卡奖励")
     menu2cn("menu_contract_button","服务合同程序");
     menu2cn("menu_option_button","大国防联军后勤补给站(?)");
     menu2cn("menu_shop_button","道具商城")
@@ -18,6 +20,8 @@
     menu2cn("logout_button","注销登录")
     id2cn("to_service_contract_button2","'最终幻想XIV'的服务合同程序，续约、注销、购入。");
     id2cn("service_contract_button","'使用信用卡或水晶点购入月卡。");
+    id2cn("retainer_contract_button","追加购买雇员")
+    ud2cn("caoption_contract_button","助手APP增值服务")
     id2cn("charge_button","使用卡密兑换。");
     id2cn("code_input_button","兑换代码")
 
@@ -60,6 +64,7 @@
     text2cn("解約手続きを行うとゲームの再開には手続きが必要となります。","这个操作将从您的账号中移除当前服务账号，如果您之后反悔了，您必须重新购买游戏内容。")
     text2cn("それでもよろしいですか？","就算是这样也要继续吗？ ")
 
+    text2cn("自動継続の停止","关闭自动续费")
     text2cn("このアカウントは招待コード入力が完了しています","此帐号已输入被招待码")
     text2cn("このサービスアカウントの友達招待から","此帐号已招待好友")
     text2cn("人が新しくプレイを開始しました。","人。")
@@ -72,9 +77,12 @@
     text2cn("お支払い方法","支付方式")
     text2cn("自動支払いがありません","未自动续约")
     text2cn("自動お支払い手続きは","自动续约手续请点")
-    text2cn("追加有料オプション","追加收费选项")
+    text2cn(/追加有料オプション/g,"追加收费选项")
     text2cn("契約なし","无")
 
+    text2cn("自動継続中","已启用自动续费")
+    text2cn("エントリーコース","入门版")
+    text2cn("残り契約日数","剩余有效时间")
     text2cn("キャラクター名","角色名称")
     text2cn("ホームワールド名","服务器名称")
     text2cn("リワードランク","WordRank")
