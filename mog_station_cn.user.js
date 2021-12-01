@@ -101,6 +101,14 @@
     text2cn("解約する","继续注销")
     text2cn("ファイナルファンタジーXIV","最终幻想XIV");
 
+    text2cn("現在のスクウェア・エニックスパスワード","旧密码");
+    text2cn(/新しいスクウェア・エニックスパスワード/g,"新密码");
+    text2cn("（再入力）","（重复一次）");
+    text2cn("パスワードの変更","密码修改");
+    text2cn("メールアドレスの変更","修改邮箱");
+    text2cn("アカウントの登録解除","注销（删号）");
+    text2cn(/スクウェア・エニックス/g,"SQUARE·ENIX");
+
     function text2cn(text,cn){
         var html= $("#base_body").html();
         $("#base_body").html(html.replace(text,cn));
